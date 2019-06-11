@@ -1,0 +1,41 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00B\x00p\x00a\x00i\x00r\x00w\x00i\x00s\x00e\x00_\x00i\x00n\x00c\x00r\x00e\x00m\x00e\x00n\x00t\x00a\x00l\x00_\x00r\x00e\x00g\x00i\x00s\x00t\x00r\x00a\x00t\x00i\x00o\x00n)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/user/projects/pairwise_incremental_registration/build
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=file:///usr/local
+
+[Launch]
+Launch Configurations=Launch Configuration 0,Launch Configuration 1
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=pairwise_incremental_registration
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Project Target=pairwise_incremental_registration,pairwise_incremental_registration
+Working Directory=file:///home/user/projects/pairwise_incremental_registration/build/
+isExecutable=false
+
+[Launch][Launch Configuration 1]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=pairwise_incremental_registration
+Type=Native Application
+
+[Launch][Launch Configuration 1][Data]
+Configured from ProjectItem=pairwise_incremental_registration,pairwise_incremental_registration
+Project Target=pairwise_incremental_registration,pairwise_incremental_registration
+Working Directory=file:///home/user/projects/pairwise_incremental_registration/build/
+isExecutable=false
