@@ -1,0 +1,4 @@
+[Project]
+Name=calculate_pointcloud_density
+Manager=KDevCMakeManager
+VersionControl=
