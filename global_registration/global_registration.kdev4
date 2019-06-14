@@ -1,0 +1,4 @@
+[Project]
+Name=global_registration
+Manager=KDevCMakeManager
+VersionControl=kdevgit
